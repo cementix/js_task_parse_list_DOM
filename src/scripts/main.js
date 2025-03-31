@@ -29,4 +29,8 @@ function getEmployees(list) {
 }
 
 sortList(pageList);
-getEmployees(pageList);
+
+const employees = getEmployees(pageList);
+
+// eslint-disable-next-line no-console
+console.log(employees);
